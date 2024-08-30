@@ -1516,3 +1516,221 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+/* Useful Tools Section Styling */
+.useful-tools {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+.useful-tools .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.useful-tools .section-title h2 {
+  font-size: 28px;
+  color: #2b6777;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.useful-tools .section-title:after {
+  content: "";
+  width: 90px;
+  height: 3px;
+  background: #2b6777;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.useful-tools .icon-box {
+  background: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.useful-tools .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.useful-tools .icon {
+  margin-bottom: 5px;
+}
+
+.useful-tools .icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.useful-tools h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #2b6777;
+}
+
+.useful-tools h4 a {
+  color: #2b6777;
+  text-decoration: none;
+}
+
+.useful-tools h4 a:hover {
+  color: #52b788;
+}
+
+
+.modal-header {
+  background-color: rgb(117, 126, 117); /* Changes the background color of the header */
+  color: rgb(50, 245, 229); /* Changes the text color to white */
+  font color: black;
+}
+
+
+
+/* Optionally, you can add a background color */
+.forex-container iframe {
+  background-color: #fffaea; /* Light green background inside iframe container */
+}
+
+/* Adding green background to the top of the header */
+header {
+  background-color: #4CAF50; /* Green background for the header */
+  color: rgb(90, 233, 97); /* Text color inside the header */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+/* EMI Calculator Card Styles */
+.card {
+  border: 1px solid #131111;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input Group Styling */
+.input-group {
+  display: flex;
+}
+
+.form-control {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.input-group-append {
+  display: flex;
+}
+
+.input-group-text {
+  background-color: #4e5a66;
+  border: 1px solid #f4f8fa;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.input-group-append .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+/* Active Button Styling */
+.btn-secondary.active {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff;
+}
+
+/* Button Styling */
+#calculateBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#calculateBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Result Section Styling */
+.result-section {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.result-section h5, .result-section h6 {
+  font-weight: bold;
+  color: #555;
+}
+
+.result-section p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Modal Styling */
+.modal-header {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.modal-body {
+  background-color: #f8f9fa;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+}
+
+.close {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 10px;
+  }
+
+  .result-section h5, .result-section h6 {
+    font-size: 14px;
+  }
+
+  .result-section p {
+    font-size: 20px;
+  }
+}
+
