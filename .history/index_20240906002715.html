@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>olimohan.com.np</title>
+  <meta name="description" content="Personal website of Mohan Oli, BBM Student, QA professional, and enthusiast in multiple fields.">
+  <meta name="keywords" content="Mohan Oli, BBM Student, Quality Assurance, Photography, Web Development">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+</head>
+
+<body class="index-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="Logo">
+        <h1 class="sitename">Mohan Oli</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Useful Tools</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">EMI Calculator</a></li>
+              <li><a href="#">Date Converter</a></li>
+              <li><a href="#">Presentation Viewer</a></li>
+              <li><a href="#">Age Calculator</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <div class="hero-content d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <div class="hero-text text-center text-md-left">
+            <h2>Mohan Oli</h2>
+            <p>
+              I'm <span class="typed" data-typed-items="BBM Student, Quality Assurance(Q.A) at Magnus Consulting Group Pvt.Ltd, Music Lover, Photographer"></span>
+            </p>
+            <!-- Social Links -->
+            <div class="social-links mt-4">
+              <a href="https://www.tiktok.com/@mohanoli83?_t=8pE6yaesVoe&_r=1" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.facebook.com/mohan.oli.92754?mibextid=ZbWKwL" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/mohan.oli.92754?igsh=NTZhMjlwcjQxMjd3" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.youtube.com/@educationaltips5321" target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+            <a href="#about" class="btn btn-primary mt-4">Learn More</a>
+          </div>
+          <div class="hero-image">
+            <img src="assets/img/hero-bg.jpg" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Useful Tools Section -->
+    <section id="useful-tools" class="useful-tools">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Useful Tools</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/emi-icon.png" alt="EMI Calculator"></div>
+              <h4><a href="#emiModal" data-bs-toggle="modal">EMI Calculator</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/forex-icon.png" alt="Foreign Exchange Rate"></div>
+              <h4><a href="#forexModal" data-bs-toggle="modal">Foreign Exchange</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/date-icon.png" alt="Date Converter"></div>
+              <h4><a href="#dateConverterModal" data-bs-toggle="modal">Date Converter</a></h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/link-icon.png" alt="Important Link"></div>
+              <h4><a href="#">Important Link</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foreign Exchange Modal -->
+    <div class="modal fade" id="forexModal" tabindex="-1" aria-labelledby="forexModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="forex-container">
+                      <iframe
+                          src="https://www.ashesh.com.np/forex/widget2.php?api=921485m743&header_color=%233CB371&background_color=%23ffffff&header_title=Forex%20Currency%20Rates&animation=slide"
+                          frameborder="0" width="100%" height="350px"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+    
+    
+
+    
+    <!-- EMI Calculator Modal -->
+    <div class="modal fade" id="emiModal" tabindex="-1" aria-labelledby="emiModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="emiModalLabel">EMI Calculator</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <!-- Input Form for EMI Calculation -->
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <h4 class="card-title text-center">EMI Calculator</h4>
+                  <form id="emiForm">
+                    <div class="mb-3">
+                      <label for="loanAmount" class="form-label">Loan Amount</label>
+                      <div class="input-group">
+                        <span class="input-group-text">₹</span>
+                        <input type="number" class="form-control" id="loanAmount" placeholder="Enter Amount" required>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="interestRate" class="form-label">Interest Rate</label>
+                      <div class="input-group">
+                        <input type="number" class="form-control" id="interestRate" placeholder="%" required>
+                        <span class="input-group-text">%</span>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="loanTenure" class="form-label">Loan Tenure</label>
+                      <div class="input-group">
+                        <input type="number" class="form-control" id="loanTenure" placeholder="Years" required>
+                        <button type="button" class="btn btn-secondary" onclick="toggleTenure('year')">Yr</button>
+                        <button type="button" class="btn btn-secondary" onclick="toggleTenure('month')">Mo</button>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100" onclick="calculateEMI()">Calculate EMI</button>
+                  </form>
+                </div>
+              </div>
+              
+              <!-- EMI Result Display -->
+              <div class="col-md-4 text-center">
+                <div id="emiResults" class="result-section">
+                  <h5>Loan EMI</h5>
+                  <p id="emiAmount">₹ 0</p>
+                  <h6>Total Interest Payable</h6>
+                  <p id="totalInterest">₹ 0</p>
+                  <h6>Total of Payments (Principal + Interest)</h6>
+                  <p id="totalPayment">₹ 0</p>
+                </div>
+              </div>
+  
+              <!-- Chart for Break-up of Total Payment -->
+              <div class="col-md-4">
+                <canvas id="emiChart" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <!-- Date Converter Modal -->
+    <div class="modal fade" id="dateConverterModal" tabindex="-1" aria-labelledby="dateConverterModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dateConverterModalLabel">Date Converter</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="dateForm">
+              <div class="mb-3">
+                <label for="startDate" class="form-label">Start Date</label>
+                <input type="date" class="form-control" id="startDate">
+              </div>
+              <div class="mb-3">
+                <label for="endDate" class="form-label">End Date</label>
+                <input type="date" class="form-control" id="endDate">
+              </div>
+              <button type="button" class="btn btn-primary" onclick="calculateDateGap()">Calculate Gap</button>
+            </form>
+            <p id="dateResult"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Age Calculator Modal -->
+    <div class="modal fade" id="ageCalculatorModal" tabindex="-1" aria-labelledby="ageCalculatorModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ageCalculatorModalLabel">Age Calculator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="ageForm">
+              <div class="mb-3">
+                <label for="birthDate" class="form-label">Birth Date</label>
+                <input type="date" class="form-control" id="birthDate">
+              </div>
+              <button type="button" class="btn btn-primary" onclick="calculateAge()">Calculate Age</button>
+            </form>
+            <p id="ageResult"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container text-center">
+      <h3 class="sitename">Mohan</h3>
+      <p>"Welcome to my personal website, where I share insights from my journey as a BBM student and Quality Assurance professional, alongside my passion for creating impactful web solutions."</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2024</span> <strong class="px-1 sitename">Mohan</strong> <span>All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Custom Scripts -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const dateElement = document.getElementById("date");
+
+      // Set the current date
+      const currentDate = new Date();
+      dateElement.textContent = currentDate.toLocaleDateString();
+    });
+
+    // EMI Calculation
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  let tenureType = 'year'; // Default tenure is in years
+
+  function toggleTenure(type) {
+    tenureType = type;
+    document.getElementById('loanTenure').placeholder = (type === 'year') ? 'Years' : 'Months';
+  }
+
+  function calculateEMI() {
+    const loanAmount = parseFloat(document.getElementById('loanAmount').value);
+    const interestRate = parseFloat(document.getElementById('interestRate').value) / 12 / 100; // Monthly interest rate
+    let tenure = parseFloat(document.getElementById('loanTenure').value);
+
+    if (tenureType === 'year') {
+      tenure *= 12; // Convert years to months
+    }
+
+    const emi = (loanAmount * interestRate * Math.pow(1 + interestRate, tenure)) / (Math.pow(1 + interestRate, tenure) - 1);
+    const totalPayment = emi * tenure;
+    const totalInterest = totalPayment - loanAmount;
+
+    // Display Results
+    document.getElementById('emiAmount').innerText = '₹ ' + emi.toFixed(2);
+    document.getElementById('totalInterest').innerText = '₹ ' + totalInterest.toFixed(2);
+    document.getElementById('totalPayment').innerText = '₹ ' + totalPayment.toFixed(2);
+
+    // Update Chart
+    renderEMIChart(loanAmount, totalInterest);
+  }
+
+  function renderEMIChart(principal, interest) {
+    const ctx = document.getElementById('emiChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Principal Loan Amount', 'Total Interest'],
+        datasets: [{
+          data: [principal, interest],
+          backgroundColor: ['#4CAF50', '#FF6F61'],
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom',
+          }
+        }
+      }
+    });
+  }
+
+
+ 
+
+  
+
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Animate social links on page load
+    const socialLinks = document.querySelectorAll('.social-links a');
+    
+    socialLinks.forEach((link, index) => {
+      link.style.opacity = 0;
+      link.style.transform = 'translateY(20px)';
+      link.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+
+      setTimeout(() => {
+        link.style.opacity = 1;
+        link.style.transform = 'translateY(0)';
+      }, 200 * index); // Staggered delay for each link
+    });
+  });
+
+    // Date Gap Calculation
+    function calculateDateGap() {
+      const startDate = new Date(document.getElementById('startDate').value);
+      const endDate = new Date(document.getElementById('endDate').value);
+      const diffTime = Math.abs(endDate - startDate);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      document.getElementById('dateResult').innerText = `Gap between dates: ${diffDays} days`;
+    }
+
+    // Age Calculation
+    function calculateAge() {
+      const birthDate = new Date(document.getElementById('birthDate').value);
+      const today = new Date();
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      document.getElementById('ageResult').innerText = `Your age is: ${age} years`;
+    }
+  </script>
+
+</body>
+
+</html>
+
+
+
+
